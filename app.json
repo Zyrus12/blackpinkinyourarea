@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Blackpink",
+    "slug": "Blackpink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bpiconz.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zyris.Blackpink",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.zyris.Blackpink",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bpiconz.png",
+        "backgroundColor": "#000000"
+        
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
